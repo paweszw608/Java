@@ -4,7 +4,7 @@ package pl.polsl.lab.worldcupstats.models;
  * Class representing a football team
  *
  * @author Paweł Szwajnoch
- * @version 1.0
+ * @version 1.1
  */
 public class Team {
 
@@ -14,11 +14,16 @@ public class Team {
     private String name;
 
     /**
+     * Amount of points collected
+     */
+    private int points = 0;
+
+    /**
      * One-parameter contructor. Initialize Team object fields
      *
      * @param name name to set
      */
-    Team(String name) {
+    public Team(String name) {
         this.name = name;
     }
 
@@ -31,6 +36,10 @@ public class Team {
         return this.name;
     }
 
+    public int getPoints() {
+        return points;
+    }
+
     /**
      * Sets team name
      *
@@ -38,6 +47,15 @@ public class Team {
      */
     public void setName(String name) {
         this.name = name;
+    }
+
+    /**
+     * Adds points to team's possessions
+     *
+     * @param newPoints points to add
+     */
+    void addPoints(int newPoints) {
+        points += newPoints;
     }
 
 }
