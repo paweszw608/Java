@@ -1,0 +1,6 @@
+Aby aplikacja dzia³a³a poprawnie nale¿y stworzyæ bazê danych o nastêpuj¹cych parametrach:
+nazwa: WorldCupStatsDatabase
+user: java
+haslo: r5
+
+Lub inn¹ bazê pamiêtaj¹c o zmianie odpowiednich wartoœci parametrów url, user i password w pliku web.xml
