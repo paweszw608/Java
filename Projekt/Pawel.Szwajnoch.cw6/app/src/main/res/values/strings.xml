@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WorldCupStats</string>
+    <string name="previous_group">Previous Group</string>
+    <string name="next_group">Next Group</string>
+    <string name="group_a">GROUP A</string>
+    <string name="add_team">Add team</string>
+    <string name="confrim_results">Confrim results</string>
+    <string name="confirm_results">Confirm Results</string>
+</resources>
