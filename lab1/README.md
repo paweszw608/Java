@@ -1,1 +1,1 @@
-Tutaj umieszczać zajęcia laboratoryjne nr 1
+Introduction to Java language
