@@ -1,1 +1,1 @@
-Tutaj umieszczać zajęcia laboratoryjne nr 2
+Advanced features and testing
